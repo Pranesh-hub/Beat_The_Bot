@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class BallMovement : MonoBehaviour
 {
     public float BallSpeed = 8f;
@@ -14,8 +14,6 @@ public class BallMovement : MonoBehaviour
 
         rb.bodyType = RigidbodyType2D.Dynamic;
         rb.gravityScale = 0f;
-
-        rb.velocity = Vector2.right * BallSpeed;
     }
 
     void Update()
