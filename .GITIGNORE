@@ -84,9 +84,12 @@ venv/
 
 # ML-Agents files
 /[Aa]ssets/ML-Agents/
+/[Aa]ssets/ML-Agents.meta
 
 # Models
 /[Aa]ssets/Models
+/[Aa]ssets/Models.meta
 
 # Results
 /[Aa]ssets/Results/
+/[Aa]ssets/Results.meta
