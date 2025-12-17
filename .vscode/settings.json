@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "BeatTheBot_Week1.sln"
+    "dotnet.defaultSolution": "Beat_The_Bot-ML-Agents.sln"
 }
