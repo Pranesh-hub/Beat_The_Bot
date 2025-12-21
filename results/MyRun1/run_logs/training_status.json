@@ -1,0 +1,38 @@
+{
+    "Pong": {
+        "checkpoints": [
+            {
+                "steps": 60256,
+                "file_path": "results\\MyRun1\\Pong\\Pong-60256.onnx",
+                "reward": -0.01120263828206758,
+                "creation_time": 1765659785.0516315,
+                "auxillary_file_paths": [
+                    "results\\MyRun1\\Pong\\Pong-60256.pt"
+                ]
+            },
+            {
+                "steps": 200004,
+                "file_path": "results\\MyRun1\\Pong\\Pong-200004.onnx",
+                "reward": -0.010937530865899693,
+                "creation_time": 1765661482.1997154,
+                "auxillary_file_paths": [
+                    "results\\MyRun1\\Pong\\Pong-200004.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 200004,
+            "file_path": "results\\MyRun1\\Pong.onnx",
+            "reward": -0.010937530865899693,
+            "creation_time": 1765661482.1997154,
+            "auxillary_file_paths": [
+                "results\\MyRun1\\Pong\\Pong-200004.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.10.2+cpu"
+    }
+}

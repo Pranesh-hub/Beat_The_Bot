@@ -42,20 +42,21 @@ public class GameManager : MonoBehaviour
             Left_score++;
             leftAgent.AddReward(+1f);
             rightAgent.AddReward(-1f);
-            SpawnBall(Vector2.left);
         }
         else
         {
             Right_score++;
             rightAgent.AddReward(+1f);
             leftAgent.AddReward(-1f);
-            SpawnBall(Vector2.right);
         }
 
         UpdateUI();
 
         leftAgent.EndEpisode();
         rightAgent.EndEpisode();
+
+        Vector2 dir = scoredOnRightGoal ? Vector2.left : Vector2.right;
+        SpawnBall(dir);
     }
 
     void SpawnBall(Vector2 baseDirection)

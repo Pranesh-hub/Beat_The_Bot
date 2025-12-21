@@ -44,9 +44,10 @@ public class PongAgent : Agent
         sensor.AddObservation(isRightSide ? 1f : 0f); // 1 float
     }
 
+    public float yLimit = 7f;
+
     public override void OnActionReceived(ActionBuffers actions)
     {
-        // One discrete action: 0=stay, 1=up, 2=down
         int a = actions.DiscreteActions[0];
         float vertical = 0f;
         if (a == 1) vertical = 1f;
@@ -54,7 +55,10 @@ public class PongAgent : Agent
 
         rb.velocity = new Vector2(0f, vertical * moveSpeed);
 
-        // Small time penalty to encourage finishing rallies (scoring) sooner
+        Vector2 pos = rb.position;
+        pos.y = Mathf.Clamp(pos.y, -yLimit, yLimit);
+        rb.position = pos;
+
         AddReward(-0.0002f);
     }
 
