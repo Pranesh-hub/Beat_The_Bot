@@ -24,7 +24,7 @@ public class PongAgent : Agent
     {
         // reset paddle; ball reset is handled by GameManager
         rb.velocity = Vector2.zero;
-        rb.position = startPos;
+        // rb.position = startPos;
     }
 
     public override void CollectObservations(VectorSensor sensor)
