@@ -1,0 +1,47 @@
+{
+    "Pong": {
+        "checkpoints": [
+            {
+                "steps": 129892,
+                "file_path": "results/BTB_v1/Pong/Pong-129892.onnx",
+                "reward": -0.03187021359484246,
+                "creation_time": 1766148997.2863915,
+                "auxillary_file_paths": [
+                    "results/BTB_v1/Pong/Pong-129892.pt"
+                ]
+            },
+            {
+                "steps": 499612,
+                "file_path": "results/BTB_v1/Pong/Pong-499612.onnx",
+                "reward": -0.08738000243902207,
+                "creation_time": 1766255865.8025959,
+                "auxillary_file_paths": [
+                    "results/BTB_v1/Pong/Pong-499612.pt"
+                ]
+            },
+            {
+                "steps": 501612,
+                "file_path": "results/BTB_v1/Pong/Pong-501612.onnx",
+                "reward": -0.08738000243902207,
+                "creation_time": 1766255866.063606,
+                "auxillary_file_paths": [
+                    "results/BTB_v1/Pong/Pong-501612.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 501612,
+            "file_path": "results/BTB_v1/Pong.onnx",
+            "reward": -0.08738000243902207,
+            "creation_time": 1766255866.063606,
+            "auxillary_file_paths": [
+                "results/BTB_v1/Pong/Pong-501612.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0+cu102"
+    }
+}
