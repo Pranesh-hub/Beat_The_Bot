@@ -56,5 +56,9 @@
         "temp/": true,
         "Temp/": true
     },
+<<<<<<< HEAD
     "dotnet.defaultSolution": "Beat_The_Bot-ML-Agents.sln"
+=======
+    "dotnet.defaultSolution": "BeatTheBot_Week1.sln"
+>>>>>>> upstream/main
 }

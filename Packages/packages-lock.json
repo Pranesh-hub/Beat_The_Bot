@@ -96,6 +96,7 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.barracuda": {
       "version": "3.0.0",
       "depth": 1,
@@ -107,6 +108,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> upstream/main
     "com.unity.burst": {
       "version": "1.8.21",
       "depth": 1,
@@ -181,6 +184,7 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.ml-agents": {
       "version": "2.0.2",
       "depth": 0,
@@ -201,6 +205,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> upstream/main
     "com.unity.render-pipelines.core": {
       "version": "14.0.12",
       "depth": 1,

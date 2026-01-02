@@ -8,7 +8,10 @@ public class BallMovement : MonoBehaviour
 
     private Vector2 lastFrameVelocity;
 
+<<<<<<< HEAD
     public GameManager gameManager;
+=======
+>>>>>>> upstream/main
     void Start()
     {
         if (rb == null) rb = GetComponent<Rigidbody2D>();
@@ -24,6 +27,7 @@ public class BallMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+<<<<<<< HEAD
         if (collision.gameObject.CompareTag("Player"))
         {
             PongAgent agent = collision.collider.GetComponent<PongAgent>();
@@ -33,6 +37,8 @@ public class BallMovement : MonoBehaviour
             }
         }
 
+=======
+>>>>>>> upstream/main
         if (!collision.gameObject.CompareTag("Wall") &&
             !collision.gameObject.CompareTag("Player"))
             return;

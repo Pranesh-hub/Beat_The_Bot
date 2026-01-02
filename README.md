@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # <u>Beat The Bot </u>
 ## <u>Week 1:Assignment</u>
 
@@ -75,3 +76,6 @@ The rewards are are based on two factors:
 - However, the final performance doesn’t improve much.
 5. **What does this tell you about training instability in reinforcement learning?**
 - In reinforcement learning, the major goal of the agent is to maximise rewards. So, this might lead to the agent exploiting rewards instead of actually doing its purpose. The trainer needs to give priority to the major goal while also ensuring that the reward system is balanced. This leads to instable learning and lot of trial and error.
+=======
+"# Beat_The_Bot" 
+>>>>>>> upstream/main
