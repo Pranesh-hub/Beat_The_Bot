@@ -153,7 +153,11 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+<<<<<<< HEAD
+  m_Constraints: 4
+=======
   m_Constraints: 0
+>>>>>>> upstream/main
 --- !u!114 &7983103111154778612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +170,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01e427cefe9e5f42a324b1e1992224b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  BallSpeed: 7
+=======
   BallSpeed: 20
+>>>>>>> upstream/main
   rb: {fileID: 798671973704181018}
 --- !u!58 &5934012958404756103
 CircleCollider2D:

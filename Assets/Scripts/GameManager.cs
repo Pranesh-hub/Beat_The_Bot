@@ -16,9 +16,20 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI RightScoreText;
     public TextMeshProUGUI LeftScoreText;
 
+<<<<<<< HEAD
+    [Header("Scores")]
     public int Right_score = 0;
     public int Left_score = 0;
 
+    [Header("Pong Agents")]
+    public PongAgent leftAgent;
+    public PongAgent rightAgent;
+
+=======
+    public int Right_score = 0;
+    public int Left_score = 0;
+
+>>>>>>> upstream/main
     void Start()
     {
         UpdateUI();
@@ -35,15 +46,29 @@ public class GameManager : MonoBehaviour
         if (scoredOnRightGoal)
         {
             Left_score++;
+<<<<<<< HEAD
+            leftAgent.AddReward(+1f);
+=======
+>>>>>>> upstream/main
             SpawnBall(Vector2.left);
         }
         else
         {
             Right_score++;
+<<<<<<< HEAD
+            rightAgent.AddReward(+1f);
+=======
+>>>>>>> upstream/main
             SpawnBall(Vector2.right);
         }
 
         UpdateUI();
+<<<<<<< HEAD
+
+        leftAgent.EndEpisode();
+        rightAgent.EndEpisode();
+=======
+>>>>>>> upstream/main
     }
 
     void SpawnBall(Vector2 baseDirection)
@@ -58,6 +83,12 @@ public class GameManager : MonoBehaviour
             Quaternion.identity
         );
 
+<<<<<<< HEAD
+        leftAgent.ballRb = currentBall;
+        rightAgent.ballRb = currentBall;
+
+=======
+>>>>>>> upstream/main
         Vector2 dir = baseDirection.normalized;
         float angle = Random.Range(-maxLaunchAngle, maxLaunchAngle);
         Quaternion rot = Quaternion.Euler(0f, 0f, angle);
@@ -79,4 +110,8 @@ public class GameManager : MonoBehaviour
         LeftScoreText.text  = "Left Player's Score: "  + Left_score;
         RightScoreText.text = "Right Player's Score: " + Right_score;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> upstream/main
