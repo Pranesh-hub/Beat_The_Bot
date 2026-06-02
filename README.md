@@ -1,4 +1,7 @@
 # Beat the Bot
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/deb432b0-4af4-4b18-aaca-0141b30742e3" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/580a869d-8739-468c-a00a-e62a06cd7e97" />
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/f8a75ede-82c8-4f00-93eb-8f5efbc32709" />
 
 ## Motivation
 
